@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Articode - Librería de Símbolos Unicode</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="image.png" type="image/png">
+</head>
+
+<body>
+  <header>
+    <h1> Articode</h1>
+    <p>Tu librería de símbolos Unicode: visualiza, copia y aprende.</p>
+    <div class="buscador">
+      <input type="text" id="busquedaInput" placeholder="Ej: 9776 ">
+      <button id="botonBuscar">Generar</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="symbol-grid"></section>
+
+  </main>
+  <div id="searchModal" class="modal">
+    <div class="modal-content" id="searchModalContent">
+      <span id="closeSearchModal" class="close">&times;</span>
+      <ul id="searchResults" class="search-results"></ul>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div class="modal-symbol" id="modalSymbol">☽</div>
+      <div class="modal-code">
+        <input type="text" id="modalCode" readonly>
+        <button onclick="copiarCodigo()">Copiar</button>
+      </div>
+      <p id="modalUsage" class="modal-usage"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
