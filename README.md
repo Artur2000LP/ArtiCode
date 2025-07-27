@@ -1,4 +1,6 @@
 # 🔤 Articode - Tu Librería de Símbolos Unicode
+https://artur2000lp.github.io/ArtiCode/
+<img width="1885" height="861" alt="image" src="https://github.com/user-attachments/assets/2a40f4fc-0fe3-4f0d-bf83-c4de1a3122a7" />
 
 **Articode** es una aplicación web interactiva para buscar, visualizar y copiar símbolos Unicode fácilmente. Está pensada para desarrolladores, diseñadores, estudiantes o cualquier persona que necesite trabajar con caracteres especiales, íconos o símbolos Unicode.
 
@@ -15,9 +17,9 @@
 
 ## ⚙️ Tecnologías Usadas
 
-- HTML5
+- HTML
 - CSS3
-- JavaScript Vanilla
+- JavaScript 
 
 ---
 
